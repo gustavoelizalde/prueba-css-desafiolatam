@@ -1,0 +1,10 @@
+.btn-primary {
+	background-color: $color-orange-light;
+	border-color: $color-orange-dark;
+
+	&:hover,
+	&:active,
+	&:focus {
+		background-color: $color-orange-darker;
+	}
+}

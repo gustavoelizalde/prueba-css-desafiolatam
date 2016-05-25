@@ -1,0 +1,40 @@
+section.hero-banner {
+	background: url('../img/bg.jpg') center center fixed no-repeat;
+	background-size: cover;
+
+	[class*="col-"] {
+		height: 75vh;
+	}
+	
+	.valign-content {
+		@include full-vertical-alignment();
+		text-align: center;
+	}
+
+	.logo {
+		max-width: 300px;
+		margin: 0 auto;
+		margin-bottom: 25px;
+		display: block;
+
+		@media (min-width: $medium-up) {
+			margin-bottom: 50px;
+		}
+	}
+
+	h1 {
+		color: white;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 600;
+		margin-bottom: 25px;
+	}
+
+	p {
+		color: white;
+		text-align: center;
+		font-weight: 500;
+		font-size: 2rem;
+		margin-bottom: 25px;
+	}
+}
